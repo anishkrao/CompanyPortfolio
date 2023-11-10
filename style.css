@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#top-header{
+    background-color: rgb(214, 242, 255);
+    border-bottom: 1px solid rgb(164, 211, 255);
+}
+#top-header a{
+    text-decoration: none;
+    color: #40739e;
+    font-weight: 600;
+}
+#top-header a:hover{
+    text-decoration: underline;
+}
+#bottom-header a:hover{
+    color: orange;
+
+}
+
+/* START FOOTER */
+.full-footer{
+    background-color:#1B9CFC ;
+    
+}
+
+.top-footer p{
+    color: white;
+}
+.top-footer a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.top-footer a:hover{
+    text-decoration: underline;
+}
+.top-footer h3{
+    color: white;
+}
+.bottom-footer{
+    background-color: #3867d6;
+    width:100%;
+
+}
+.bottom-footer p{
+    color: white;
+}
+/* START OF HOME PAGE */
+.top-hero-section{
+    background-color: #3867d6;
+    color: white;
+}
+.hero-section-row{
+    display: flex;
+    justify-content: space-between;
+}
+.top-hero-section a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.top-hero-section a:hover{
+    text-decoration: underline;
+}
+/* DOWN SECTION IN HOME PAGE */
+.down-section-home1{
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+.newsletter{
+    background-color: rgb(94, 94, 94);
+    color:white;
+}
+.newsletter .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+.newsletter .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: fixed;
+    background-color: #ff6600;
+    color: white;
+}
+.down-section-home-a{
+    text-decoration: none;
+    color:#ff6600;
+    font-weight: 600;
+}
+.down-section-home-a:hover {
+    text-decoration: underline;
+    color:#ff6600;
+    font-weight: 600;
+}
+/* CLIENT SECTION HOME */
+.client-section{
+    background-color: #3867d6;
+    color: white;
+}
+/* About us page */
+.breadcrumbs-section{
+     background-color: aliceblue;
+}
+.breadcrumbs-section a{
+    text-decoration: none;
+    color: orange;
+}
+.breadcrumbs-section a:hover{
+    text-decoration: underline;
+}
+.about-us-section3 .form-control{
+    height: 50px;
+    border-color: transparent;
+    border-radius: 20px 0 0 20px;
+}
+.about-us-section3 .btn{
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: fixed;
+    background-color: #ff6600;
+    color: white;
+}
+.about-us-section3{
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+/* Portfolio page */
+.breadcrumbs-section-portfolio{
+    background-color: aliceblue;
+}
+.breadcrumbs-section-portfolio a{
+    text-decoration: none;
+    color: orange;
+}
+.breadcrumbs-section-portfolio a:hover{
+    text-decoration: underline;
+}
+
+/* Contact us page */
+.breadcrumbs-section-contactus{
+    background-color: aliceblue;
+}
+.breadcrumbs-section-contactus a{
+    text-decoration: none;
+    color: orange;
+}
+.breadcrumbs-section-contactus a:hover{
+    text-decoration: underline;
+}
+.address a{
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+}
+.address a:hover{
+    text-decoration: underline;
+}
+/* Web Designni */
+.brdcrmb{ 
+    background-color: aliceblue;
+}
+.brdcrmb a{ 
+    text-decoration: none;
+    color: orangered;
+}
+.brdcrmb a:hover{ 
+    text-decoration: underline;
+}
